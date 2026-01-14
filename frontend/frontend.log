@@ -1,0 +1,79 @@
+
+> frontend@0.1.0 dev
+> next dev
+
+▲ Next.js 16.1.1 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.31.123:3000
+
+✓ Starting...
+✓ Ready in 597ms
+ GET / 200 in 1295ms (compile: 1211ms, render: 84ms)
+ GET / 200 in 31ms (compile: 6ms, render: 26ms)
+ GET / 200 in 26ms (compile: 4ms, render: 22ms)
+ GET / 200 in 74ms (compile: 19ms, render: 56ms)
+▲ Next.js 16.1.1 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.31.123:3000
+
+✓ Starting...
+✓ Ready in 637ms
+ GET / 200 in 342ms (compile: 228ms, render: 114ms)
+ GET / 200 in 55ms (compile: 12ms, render: 43ms)
+ GET / 200 in 57ms (compile: 12ms, render: 44ms)
+ GET / 200 in 67ms (compile: 20ms, render: 47ms)
+ GET / 200 in 47ms (compile: 12ms, render: 35ms)
+▲ Next.js 16.1.1 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.31.123:3000
+
+✓ Starting...
+✓ Ready in 674ms
+ GET / 200 in 347ms (compile: 249ms, render: 99ms)
+▲ Next.js 16.1.1 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.31.123:3000
+
+✓ Starting...
+✓ Ready in 585ms
+ GET / 200 in 330ms (compile: 215ms, render: 115ms)
+▲ Next.js 16.1.1 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.31.123:3000
+
+✓ Starting...
+✓ Ready in 512ms
+ GET / 200 in 245ms (compile: 130ms, render: 115ms)
+▲ Next.js 16.1.1 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.31.123:3000
+
+✓ Starting...
+✓ Ready in 730ms
+ GET / 200 in 367ms (compile: 268ms, render: 100ms)
+▲ Next.js 16.1.1 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.31.123:3000
+
+✓ Starting...
+✓ Ready in 542ms
+ GET / 200 in 248ms (compile: 129ms, render: 119ms)
+ GET / 200 in 72ms (compile: 19ms, render: 53ms)
+ GET / 200 in 62ms (compile: 13ms, render: 49ms)
+ GET / 200 in 43ms (compile: 8ms, render: 35ms)
+ GET / 200 in 50ms (compile: 12ms, render: 38ms)
+ GET / 200 in 46ms (compile: 10ms, render: 36ms)
+ GET / 200 in 87ms (compile: 32ms, render: 55ms)
+ GET / 200 in 60ms (compile: 16ms, render: 44ms)
+ GET / 200 in 47ms (compile: 7ms, render: 39ms)
+▲ Next.js 16.1.1 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.31.123:3000
+
+✓ Starting...
+✓ Ready in 658ms
+ GET / 200 in 345ms (compile: 250ms, render: 95ms)
+ GET / 200 in 63ms (compile: 15ms, render: 48ms)
+ GET / 200 in 34ms (compile: 6ms, render: 29ms)
+✓ Compiled in 338ms
+ GET / 200 in 132ms (compile: 66ms, render: 66ms)

@@ -1,0 +1,141 @@
+@import "tailwindcss";
+
+:root {
+  --bg-primary: #FFFFFF;
+  --bg-secondary: #FAFAFA;
+  --border-color: #E5E7EB;
+
+  --text-primary: #000000;
+  --text-secondary: #525252;
+  --text-dim: #A3A3A3;
+
+  /* No functional colors, just shades of gray for logic */
+  --accent-active: #000000;
+  --accent-dim: #D4D4D4;
+
+  --font-sans: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --font-mono: "SF Mono", "Menlo", "Monaco", "Courier New", monospace;
+}
+
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: var(--font-sans);
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  /* App handles scrolling */
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--bg-tertiary);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--text-dim);
+}
+
+/* Animations */
+@keyframes pulse-glow {
+
+  0%,
+  100% {
+    opacity: 0.5;
+    transform: scale(1);
+  }
+
+  50% {
+    opacity: 1;
+    transform: scale(1.1);
+  }
+}
+
+@keyframes slide-in-right {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.animate-pulse-glow {
+  animation: pulse-glow 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+.animate-slide-in {
+  animation: slide-in-right 0.3s ease-out forwards;
+}
+
+.chat-bubble-user {
+  background-color: var(--accent-secondary);
+  /* Changed from --primary to --accent-secondary based on new palette */
+  color: white;
+  border-radius: 1rem;
+  border-top-right-radius: 0;
+  padding: 0.5rem 1rem;
+  max-width: 80%;
+  align-self: flex-end;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+}
+
+.chat-bubble-ai {
+  background-color: white;
+  color: #18181b;
+  border-radius: 1rem;
+  border-top-left-radius: 0;
+  padding: 0.5rem 1rem;
+  max-width: 80%;
+  align-self: flex-start;
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1);
+  border: 1px solid #f4f4f5;
+}
+
+.dark .chat-bubble-ai {
+  background-color: #27272a;
+  color: #f4f4f5;
+  border-color: #3f3f46;
+}
+
+.thought-bubble {
+  font-size: 0.75rem;
+  color: #a1a1aa;
+  font-style: italic;
+  margin-bottom: 0.25rem;
+  margin-left: 1rem;
+}
+
+.typing-dot {
+  width: 0.375rem;
+  height: 0.375rem;
+  background-color: #a1a1aa;
+  border-radius: 9999px;
+  animation: bounce 1s infinite;
+}
+
+@keyframes bounce {
+
+  0%,
+  100% {
+    transform: translateY(-25%);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+
+  50% {
+    transform: translateY(0);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}

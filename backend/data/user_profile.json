@@ -1,0 +1,27 @@
+{
+    "basic_info": {
+        "name": "User",
+        "age": "29",
+        "gender": "Unknown",
+        "job": "Newcomer",
+        "location": "Earth"
+    },
+    "tags": [
+        "New User",
+        "Curious"
+    ],
+    "advice_for_ai": "The user is new. Be friendly, curious, and guide them to explore the system.",
+    "traits_ocean": {
+        "Openness": 5,
+        "Conscientiousness": 5,
+        "Extraversion": 5,
+        "Agreeableness": 5,
+        "Neuroticism": 5
+    },
+    "state_current": {
+        "Energy": 8,
+        "SocialDesire": 8,
+        "Defensiveness": 0
+    },
+    "last_updated": 0
+}
