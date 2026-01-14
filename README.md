@@ -43,4 +43,4 @@ It features a **"Proactive Heartbeat"** system that allows it to initiate conver
 - [ ] Telegram/Discord Integration
 
 ## License
-MIT
+Apache 2.0
