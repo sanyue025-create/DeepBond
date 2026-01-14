@@ -25,9 +25,6 @@ Unlike traditional chatbots that strictly "respond to input", DeepBond possesses
     *   Built on **FastAPI + ChromaDB (Mem0)**. 
     *   Your psychological profile stays on your disk.
 
-3.  **🧠 Local & Private**: 
-    *   Built on **FastAPI + ChromaDB (Mem0)**. 
-    *   Your psychological profile stays on your disk.
 
 ## Installation
 
